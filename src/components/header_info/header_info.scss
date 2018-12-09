@@ -1,0 +1,17 @@
+.ui.header_info {
+    text-align: center;
+    width: 100%;
+    padding: .7%;
+    background: rgba(242, 205, 203, 0.390);
+    opacity: .8;
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 300;
+
+    display: flex;
+    justify-content: center;
+
+    & .currency {
+
+    }
+}
