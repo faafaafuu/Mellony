@@ -1,0 +1,21 @@
+.footer {
+    background: #151518;
+    height: 100px;
+    margin-top: 200px;
+    margin-bottom: 0%;
+    color: #fff;
+    text-align: center;
+    // flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+        & .socialMediaIconGroup {
+            margin-right: 12%;
+            margin-top: 2%;
+            position: relative;
+
+        }
+}
+

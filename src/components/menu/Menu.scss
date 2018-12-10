@@ -1,10 +1,16 @@
 .ui.secondary.inverted.pointing.menu {
     display: flex;
     justify-content: center; 
-    border: none;   
+    border: none;       
+    flex: 1 0 auto;
 }
 
 .ui.inverted.segment {
+    // position: fixed;
+    // top: 0%;
+    z-index: 10;
+    transition: box-shadow 0.3s, background 0.3s;
+    width: 100%;
     border-radius: 0;
     // background: rgba(242, 205, 203, 0.390);
     background: #fff;
@@ -14,12 +20,14 @@
     
 }
 
-.ui.secondary.inverted.pointing.menu .item  {
-    text-transform: uppercase;
-    font-family: 'Tenor Sans', sans-serif;
-}
+// .ui.secondary.inverted.pointing.menu .item  {
+//     text-transform: uppercase;
+//     font-family: 'Tenor Sans', sans-serif;
+// }
 
 .ui.secondary.inverted.menu a.item  {
+    text-transform: uppercase;
+    font-family: 'Tenor Sans', sans-serif;
     color: rgba(0,0,0,.87)!important;
     border-bottom: .7px solid;
     border-bottom-color: transparent;
@@ -41,15 +49,23 @@
 
 
 hr {
-    width: 70%;
+    width: 76%;
     opacity: .3;
+}
+
+nav {
+    justify-self: center;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
+
+        & :last-child {
+            justify-self: flex-end;
+        }
 }
 
 ul li {
-    margin-left: 20px;
+    margin-left: 30px;
 }

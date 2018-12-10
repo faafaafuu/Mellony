@@ -33,14 +33,14 @@
 }
 
 .ui.container.cardsGroup {
-    width: 100%;
+    margin-top: 10%;
+    // width: 100%;
     
 }
 
 .ui.four.cards {
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
 }
 
 .ui.cards>.card {
